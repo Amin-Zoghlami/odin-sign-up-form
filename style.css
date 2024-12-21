@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+label {
+    display: block;
+}
+
+.image {
+    background-image: url(david-becker-unsplash.jpg);
+    background-size: cover;
+    width: 33%;
+}
+
+.main {
+    width: 67%;
+}
+
+.info {
+    padding: 100px;
+}
+
+.sign_in {
+    padding: 100px;
+}
+
+.log_in {
+    padding: 100px;
+}
